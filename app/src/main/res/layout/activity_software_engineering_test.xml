@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoftwareEngineeringTest">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/topAlayout"
+        android:background="#228b22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Technology Test"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="530sp"
+        android:id="@+id/scrolTest"
+        android:layout_below="@id/topAlayout"
+        android:fillViewport="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/career_message"
+            android:isScrollContainer="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Choose one Option per question"
+                android:background="@drawable/display_careers"
+                android:textSize="20dp"
+                android:textColor="#228b22">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="1.	What is a network?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question1"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	A set of software used to send information"
+                    android:id="@+id/cbSoft_Engineer_Question1_A"
+                    >
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	A collection of computers and devices connected by communication channels"
+                    android:id="@+id/cbSoft_Engineer_Question1_B">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	A set of hardware that are used to save information"
+                    android:id="@+id/cbSoft_Engineer_Question1_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	A collection of storage devices used to save information"
+                    android:id="@+id/cbSoft_Engineer_Question1_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="2. Which of the following is NOT used to facilitate communication on the network?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question2"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Email"
+                    android:id="@+id/cbSoft_Engineer_Question2_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Instant messaging"
+                    android:id="@+id/cbSoft_Engineer_Question2_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Chat rooms"
+                    android:id="@+id/cbSoft_Engineer_Question2_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Printing"
+                    android:id="@+id/cbSoft_Engineer_Question2_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="3. Is not a programming Language"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question3"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Jave"
+                    android:id="@+id/cbSoft_Engineer_Question3_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Visual basic"
+                    android:id="@+id/cbSoft_Engineer_Question3_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	C#"
+                    android:id="@+id/cbSoft_Engineer_Question3_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	English"
+                    android:id="@+id/cbSoft_Engineer_Question3_D">
+
+                </RadioButton>
+
+
+            </RadioGroup>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="4.	Check an Odd term"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question4"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Internet"
+                    android:id="@+id/cbSoft_Engineer_Question4_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Linux"
+                    android:id="@+id/cbSoft_Engineer_Question4_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Unix"
+                    android:id="@+id/cbSoft_Engineer_Question4_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Windows"
+                    android:id="@+id/cbSoft_Engineer_Question4_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="5.	What is the full form of www?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question5"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	World Wide Word"
+                    android:id="@+id/cbSoft_Engineer_Question5_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	World Wide Web"
+                    android:id="@+id/cbSoft_Engineer_Question5_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Word Winding Works"
+                    android:id="@+id/cbSoft_Engineer_Question5_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Words Wide Spiderman Works"
+                    android:id="@+id/cbSoft_Engineer_Question5_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="6.The word function that corrects text as you type is referred to as"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question6"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Auto summarize"
+                    android:id="@+id/cbSoft_Engineer_Question6_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Auto insert"
+                    android:id="@+id/cbSoft_Engineer_Question6_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Auto correct"
+                    android:id="@+id/cbSoft_Engineer_Question6_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Track Changes"
+                    android:id="@+id/cbSoft_Engineer_Question6_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="7.	Select the Odd one out"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question7"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Interpreter"
+                    android:id="@+id/cbSoft_Engineer_Question7_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Operating System"
+                    android:id="@+id/cbSoft_Engineer_Question7_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Compiler"
+                    android:id="@+id/cbSoft_Engineer_Question7_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Assembler"
+                    android:id="@+id/cbSoft_Engineer_Question7_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="8.	The term PC means"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question8"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Private Computer"
+                    android:id="@+id/cbSoft_Engineer_Question8_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Personal Computer"
+                    android:id="@+id/cbSoft_Engineer_Question8_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Professional Computer"
+                    android:id="@+id/cbSoft_Engineer_Question8_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Personal Calculator"
+                    android:id="@+id/cbSoft_Engineer_Question8_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="9.	The brain of a Computer is"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question9"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	CD"
+                    android:id="@+id/cbSoft_Engineer_Question9_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	CPU"
+                    android:id="@+id/cbSoft_Engineer_Question9_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Floppy disc"
+                    android:id="@+id/cbSoft_Engineer_Question9_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Megabyte"
+                    android:id="@+id/cbSoft_Engineer_Question9_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="10.	WAN means"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question10"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Wide Area Network"
+                    android:id="@+id/cbSoft_Engineer_Question10_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Wine Area Network"
+                    android:id="@+id/cbSoft_Engineer_Question10_B">>
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Wall Area Network"
+                    android:id="@+id/cbSoft_Engineer_Question10_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Work Area Network"
+                    android:id="@+id/cbSoft_Engineer_Question10_D">>
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnsubmitSoftware_test"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="#228b22"
+                    android:text="Submit Test"
+                    android:textColor="#ffff">
+
+                </Button>
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/scrolTest"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+</RelativeLayout>

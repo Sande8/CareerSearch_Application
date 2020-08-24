@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/display_careers"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/display_careers"
+        android:id="@+id/midLayout"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imgID"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/applogo">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgID"
+            android:gravity="center"
+            android:text="Sign in"
+            android:textSize="24sp"
+
+
+            />
+        <EditText
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/EditUsername"
+            android:hint="Username"
+            android:layout_below="@id/textView">
+
+        </EditText>
+        <EditText
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/EditPassword"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_below="@id/EditUsername">
+
+        </EditText>
+
+        <Button
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Login"
+            android:id="@+id/btnLogin"
+            android:textColor="#ffff"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/EditPassword">
+
+        </Button>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/display_careers"
+        android:id="@+id/final_Layout"
+        android:layout_below="@+id/midLayout">
+        <Button
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Create Account"
+            android:id="@+id/btnCreateAcc"
+            android:textColor="#ffff"
+            android:background="@color/colorPrimary">
+
+        </Button>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/Acc_Layout"
+        android:background="@drawable/display_careers"
+        android:layout_below="@+id/final_Layout">
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

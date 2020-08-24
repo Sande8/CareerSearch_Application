@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BestInHealth">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toplayout"
+        android:background="#228b22">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Health Science Universities"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="530sp"
+        android:id="@+id/scrolTest"
+        android:layout_below="@id/toplayout"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/career_message"
+            android:isScrollContainer="true">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text=" Suggested Universities for Health Science careers"
+                android:textSize="24dp"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:text="You can apply to any of the listed universities"
+                android:background="@drawable/display_careers"
+                android:textSize="20dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:id="@+id/apply"
+                android:textColor="#228b22">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/apply"
+                android:id="@+id/uj"
+                android:text="University of Johannesburg">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"
+                android:text="https://www.uj.ac.za/studyatUJ/sec/Pages/undergraduate.aspx"
+                android:background="@drawable/display_careers"
+                android:id="@+id/ujapplication"
+                android:layout_below="@+id/uj"
+                android:textSize="12dp"
+                android:autoLink="all"
+                android:clickable="true"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ujapplication"
+                android:id="@+id/nmu"
+                android:text="University of Kwazulu Natal">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"
+                android:text="http://applications.ukzn.ac.za/ApplicationProcedures/Postgraduate-Applicants/Online-Application.aspx"
+                android:background="@drawable/display_careers"
+                android:id="@+id/witsapplication"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_below="@+id/nmu"
+                android:textSize="12dp"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/witsapplication"
+                android:id="@+id/up"
+                android:text="Walter Sisulu University">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"
+                android:text="http://www.wsu.ac.za/waltersisulu/index.php/how-do-i-apply/"
+                android:background="@drawable/display_careers"
+                android:id="@+id/uctapplication"
+                android:layout_below="@+id/up"
+                android:textSize="12dp"
+                android:autoLink="all"
+                android:clickable="true"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/uctapplication"
+                android:id="@+id/uct"
+                android:text="University of Cape Town">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"
+                android:text="https://publicaccess.uct.ac.za/psp/public/EMPLOYEE/SA/c/UCT_PUBLIC_MENU.UCT_SS_APPL.GBL?"
+                android:background="@drawable/display_careers"
+                android:id="@+id/upapplication"
+                android:layout_below="@+id/uct"
+                android:textSize="12dp"
+                android:autoLink="all"
+                android:clickable="true"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upapplication"
+                android:id="@+id/wits"
+                android:text="WitWatersrand">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="italic"
+                android:background="@drawable/display_careers"
+                android:layout_centerHorizontal="true"
+                android:text="https://www.wits.ac.za/undergraduate/apply-to-wits/"
+                android:id="@+id/ukznapplication"
+                android:layout_below="@+id/wits"
+                android:textSize="12dp"
+                android:autoLink="all"
+                android:clickable="true"
+                >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/btnhealthlogout"
+                    android:background="#228b22"
+                    android:text="Logout"
+                    android:textColor="#ffff">
+
+                </Button>
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/scrolTest"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+</RelativeLayout>

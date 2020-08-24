@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toplayout"
+        android:background="#228b22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Your Results"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/middlelayout"
+        android:layout_below="@id/toplayout"
+        android:background="@drawable/display_careers"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Here are your career results"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/Layout_results"
+        android:layout_below="@id/middlelayout"
+        android:background="@drawable/display_careers"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You should consider taking a career that is under the following category"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:textColor="#228b22"
+            android:paddingRight="2pt"
+            android:paddingLeft="5pt"
+            android:id="@+id/txtMessage">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290sp"
+        android:id="@+id/lastlayout"
+        android:background="@drawable/display_careers"
+        android:layout_below="@id/Layout_results"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:text="You can take a test under this category by clicking it. Please note that the
+category is provided to you based on the personality traits you have given us. If you were honest enough about
+your personality traits and soft skills that you have, there are high possiblities of you passing the test."
+            android:paddingBottom="15pt"
+            android:background="@drawable/display_careers"
+            android:paddingTop="8pt"
+            android:paddingLeft="5pt"
+            android:paddingRight="3pt"
+            android:id="@+id/txttelluser">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Here are the results"
+            android:textSize="14pt"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/txttelluser"
+            android:id="@+id/txtResults">
+
+        </TextView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/btntestLayout"
+        android:layout_below="@id/lastlayout"
+        android:background="@drawable/display_careers"
+        android:layout_centerHorizontal="true">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/btntestLayout"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+</RelativeLayout>

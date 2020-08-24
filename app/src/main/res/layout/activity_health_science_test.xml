@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthScienceTest">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/topAlayout"
+        android:background="#228b22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Health Science Test"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="530sp"
+        android:id="@+id/scrolTest"
+        android:layout_below="@id/topAlayout"
+        android:fillViewport="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/career_message"
+            android:isScrollContainer="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Choose one Option per question"
+                android:background="@drawable/display_careers"
+                android:textSize="20dp"
+                android:textColor="#228b22">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="1. Headaches or pain around the eye may be caused
+                                 by poor drainage or infection of the"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question1"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Posterior chamber"
+                    android:id="@+id/cbHealth_Question1_A"
+                    >
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Nasolacrimal duct"
+                    android:id="@+id/cbHealth_Question1_B">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Sinuses."
+                    android:id="@+id/cbHealth_Question1_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Aqueous humor."
+                    android:id="@+id/cbHealth_Question1_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="2. What is the minimum amount of time you must vigorously wash your hands with soap and water to prevent the spread of infection/disease?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question2"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. 10 seconds"
+                    android:id="@+id/cbHealth_Question2_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. 30 seconds"
+                    android:id="@+id/cbHealth_Question2_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. 90 seconds"
+                    android:id="@+id/cbHealth_Question2_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. 3 minutes"
+                    android:id="@+id/cbHealth_Question2_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="3. If you want to build trust with patients and colleagues, what should you do?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question3"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Wait on your friends first"
+                    android:id="@+id/cbHealth_Question3_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Make negative comments about a patient’s appearance"
+                    android:id="@+id/cbHealth_Question3_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Text, play games on your cell phone while patients are waiting"
+                    android:id="@+id/cbHealth_Question3_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. None of the Above"
+                    android:id="@+id/cbHealth_Question3_D">
+
+                </RadioButton>
+
+
+            </RadioGroup>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="4. What does the root word phot mean?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question4"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Light"
+                    android:id="@+id/cbHealth_Question4_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Color"
+                    android:id="@+id/cbHealth_Question4_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Disease"
+                    android:id="@+id/cbHealth_Question4_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Image"
+                    android:id="@+id/cbHealth_Question4_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="5. Which part of the eye absorbs excess light?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question5"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Retina"
+                    android:id="@+id/cbHealth_Question5_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Blind spot"
+                    android:id="@+id/cbHealth_Question5_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Choroid"
+                    android:id="@+id/cbHealth_Question5_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Optic nerve"
+                    android:id="@+id/cbHealth_Question5_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="6. Which gland secretes aldosterone?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question6"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Adrenal"
+                    android:id="@+id/cbHealth_Question6_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Pituitary"
+                    android:id="@+id/cbHealth_Question6_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Thyroid"
+                    android:id="@+id/cbHealth_Question6_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Pancreas"
+                    android:id="@+id/cbHealth_Question6_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="7. The rate of a chemical reaction is most correctly defined as the ..."
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question7"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. time taken for a reaction to occur"
+                    android:id="@+id/cbHealth_Question7_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Speed at which a reaction takes place."
+                    android:id="@+id/cbHealth_Question7_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Change in the amount of reactants or products."
+                    android:id="@+id/cbHealth_Question7_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Change in the concentration of reactants or products per unit time."
+                    android:id="@+id/cbHealth_Question7_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="8. Which ONE of the following compounds has dipole-dipole forces between its molecules?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question8"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Ethanal"
+                    android:id="@+id/cbHealth_Question8_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Ethane"
+                    android:id="@+id/cbHealth_Question8_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Ethene"
+                    android:id="@+id/cbHealth_Question8_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Ethyne "
+                    android:id="@+id/cbHealth_Question8_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="9. Which ONE of the following is a product formed during the hydrolysis of bromoethane?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question9"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Water"
+                    android:id="@+id/cbHealth_Question9_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Ethene"
+                    android:id="@+id/cbHealth_Question9_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Ethanol"
+                    android:id="@+id/cbHealth_Question9_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="Bromine"
+                    android:id="@+id/cbHealth_Question9_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="10. A line emission spectrum is formed when an excited atom moves from a ..."
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question10"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. higher to a lower energy level and releases energy."
+                    android:id="@+id/cbHealth_Question10_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. higher to a lower energy level and absorbs energy."
+                    android:id="@+id/cbHealth_Question10_B">>
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. lower to a higher energy level and releases energy."
+                    android:id="@+id/cbHealth_Question10_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. lower to a higher energy level and absorbs energy. "
+                    android:id="@+id/cbHealth_Question10_D">>
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnsubmitHealthscience_test"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="#228b22"
+                    android:text="Submit Test"
+                    android:textColor="#ffff">
+
+                </Button>
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/scrolTest"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+</RelativeLayout>

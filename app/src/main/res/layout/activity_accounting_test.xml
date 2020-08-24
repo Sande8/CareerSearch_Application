@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountingTest">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/topAlayout"
+        android:background="#228b22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Accounting Test"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="530sp"
+        android:id="@+id/scrolTest"
+        android:layout_below="@id/topAlayout"
+        android:fillViewport="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/career_message"
+            android:isScrollContainer="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Choose one Option per question"
+                android:background="@drawable/display_careers"
+                android:textSize="20dp"
+                android:textColor="#228b22">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="1. What is the value of x if x2=169"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question1"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. 1"
+                    android:id="@+id/cbAccounting_Question1_A"
+                    >
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. 13"
+                    android:id="@+id/cbAccounting_Question1_B">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. 169"
+                    android:id="@+id/cbAccounting_Question1_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. 338"
+                    android:id="@+id/cbAccounting_Question1_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="2. What is the reciprocal of 17/15"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question2"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. 1/13"
+                    android:id="@+id/cbAccounting_Question2_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. 15/17"
+                    android:id="@+id/cbAccounting_Question2_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. 17/15"
+                    android:id="@+id/cbAccounting_Question2_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. 30/34"
+                    android:id="@+id/cbAccounting_Question2_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="3.how many years are there in a decade"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question3"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. 5"
+                    android:id="@+id/cbAccounting_Question3_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. 10"
+                    android:id="@+id/cbAccounting_Question3_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. 15"
+                    android:id="@+id/cbAccounting_Question3_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. 20"
+                    android:id="@+id/cbAccounting_Question3_D">
+
+                </RadioButton>
+
+
+            </RadioGroup>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="4. What is the remainder of 21 divided by 7"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question4"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. 5"
+                    android:id="@+id/cbAccounting_Question4_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. 21"
+                    android:id="@+id/cbAccounting_Question4_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. 7"
+                    android:id="@+id/cbAccounting_Question4_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="None of the above"
+                    android:id="@+id/cbAccounting_Question4_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="5. Arielle W. bought furniture on credit from Chanel.  Which of the following journal entries will be
+                                made for this transaction in Arielle W. books?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question5"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.  Dr. Furniture   And   Cr. Cash"
+                    android:id="@+id/cbAccounting_Question5_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Dr. Purchases    And   Cr. Arielle W."
+                    android:id="@+id/cbAccounting_Question5_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Dr. Arielle W.  And   Cr. Purchases"
+                    android:id="@+id/cbAccounting_Question5_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Dr. Furniture   And  Cr. Arielle W"
+                    android:id="@+id/cbAccounting_Question5_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="6. Which of the following jobs check accounting in ledgers and financial statements?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question6"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Financial"
+                    android:id="@+id/cbAccounting_Question6_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Audit"
+                    android:id="@+id/cbAccounting_Question6_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Management"
+                    android:id="@+id/cbAccounting_Question6_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Budget Analysis"
+                    android:id="@+id/cbAccounting_Question6_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="7. Which of the following describes the practical framework of book keeping?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question7"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Classifying, recording and summarizing"
+                    android:id="@+id/cbAccounting_Question7_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Reporting, analyzing and interpreting"
+                    android:id="@+id/cbAccounting_Question7_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Classifying, analyzing and interpreting"
+                    android:id="@+id/cbAccounting_Question7_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Recording, summarizing and reporting"
+                    android:id="@+id/cbAccounting_Question7_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="8. Which of the following principles assumes that a business will continue for a long time?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question8"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Historical cost"
+                    android:id="@+id/cbAccounting_Question8_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Periodicity"
+                    android:id="@+id/cbAccounting_Question8_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Objectivity"
+                    android:id="@+id/cbAccounting_Question8_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Going concern"
+                    android:id="@+id/cbAccounting_Question8_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="9. Which of the following users assesses the attractiveness of investing in a business?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question9"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Tax authorities"
+                    android:id="@+id/cbAccounting_Question9_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Financial analysts"
+                    android:id="@+id/cbAccounting_Question9_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. Bank"
+                    android:id="@+id/cbAccounting_Question9_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Employees"
+                    android:id="@+id/cbAccounting_Question9_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="10. One of the detailed rules used to record business transaction is"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question10"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A. Objectivity"
+                    android:id="@+id/cbAccounting_Question10_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B. Accruals"
+                    android:id="@+id/cbAccounting_Question10_B">>
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text=" C. Double entry book keeping"
+                    android:id="@+id/cbAccounting_Question10_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="Cashbook"
+                    android:id="@+id/cbAccounting_Question10_D">>
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnsubmitAccounting_test"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="#228b22"
+                    android:text="Submit Test"
+                    android:textColor="#ffff">
+
+                </Button>
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/scrolTest"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+</RelativeLayout>

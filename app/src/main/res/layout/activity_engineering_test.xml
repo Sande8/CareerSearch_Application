@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EngineeringTest">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/topAlayout"
+        android:background="#228b22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Engineering Test"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="530sp"
+        android:id="@+id/scrolTest"
+        android:layout_below="@id/topAlayout"
+        android:fillViewport="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/career_message"
+            android:isScrollContainer="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Personality Traits"
+                android:background="@drawable/display_careers"
+                android:textSize="20dp"
+                android:textColor="#228b22">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="1. The moving particles in an object have………energy"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question1"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Decreasing"
+                    android:id="@+id/cbEngineer_Question1_A"
+                    >
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Increasing"
+                    android:id="@+id/cbEngineer_Question1_B">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Kinetic"
+                    android:id="@+id/cbEngineer_Question1_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Potential"
+                    android:id="@+id/cbEngineer_Question1_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="2. If an object begin to move more quickly, then their average kinetic energy …………….. and object’s temperature ………….."
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question2"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Decreasing, rises"
+                    android:id="@+id/cbEngineer_Question2_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Increases, falls"
+                    android:id="@+id/cbEngineer_Question2_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Increases, rises"
+                    android:id="@+id/cbEngineer_Question2_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. Decreasing, falls"
+                    android:id="@+id/cbEngineer_Question2_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="3.	The opposite of evaporation is…"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question3"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Condensation"
+                    android:id="@+id/cbEngineer_Question3_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Convection"
+                    android:id="@+id/cbEngineer_Question3_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Radiation"
+                    android:id="@+id/cbEngineer_Question3_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Conduction"
+                    android:id="@+id/cbEngineer_Question3_D">
+
+                </RadioButton>
+
+
+            </RadioGroup>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="4.	… Is the thermal energy that flows from material with higher temperature to the materials with lower temperature? "
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question4"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Kinetic energy"
+                    android:id="@+id/cbEngineer_Question4_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Work"
+                    android:id="@+id/cbEngineer_Question4_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Heat"
+                    android:id="@+id/cbEngineer_Question4_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Potential energy"
+                    android:id="@+id/cbEngineer_Question4_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="5. The supporting force exerted by the fluid on an object immersed in it is called?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question5"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Lift"
+                    android:id="@+id/cbEngineer_Question5_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Density"
+                    android:id="@+id/cbEngineer_Question5_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Buoyant force"
+                    android:id="@+id/cbEngineer_Question5_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Viscosity"
+                    android:id="@+id/cbEngineer_Question5_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="6.	A 𝜐 B is called…."
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question6"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Intersection"
+                    android:id="@+id/cbEngineer_Question6_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Combination"
+                    android:id="@+id/cbEngineer_Question6_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Union"
+                    android:id="@+id/cbEngineer_Question6_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Interjection"
+                    android:id="@+id/cbEngineer_Question6_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="7.	if you graph a linear equation the result is…"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question7"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Straight line with infinite points"
+                    android:id="@+id/cbEngineer_Question7_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.		Straight line with finite points"
+                    android:id="@+id/cbEngineer_Question7_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Parabola with finite points"
+                    android:id="@+id/cbEngineer_Question7_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Parabola with infinite points"
+                    android:id="@+id/cbEngineer_Question7_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="8.		Solve for x if the equation is      -5x=25"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question8"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.		x=22"
+                    android:id="@+id/cbEngineer_Question8_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.		x= -5"
+                    android:id="@+id/cbEngineer_Question8_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.		x=-20"
+                    android:id="@+id/cbEngineer_Question8_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.		x=5"
+                    android:id="@+id/cbEngineer_Question8_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="9.		What is the rule for this pattern 32,36,40,44"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question9"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Add 4"
+                    android:id="@+id/cbEngineer_Question9_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Subtract 4"
+                    android:id="@+id/cbEngineer_Question9_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Multiply by 2"
+                    android:id="@+id/cbEngineer_Question9_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Divided by 2"
+                    android:id="@+id/cbEngineer_Question9_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="10.	What is the ratio of SINE"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question10"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	hyp/opp"
+                    android:id="@+id/cbEngineer_Question10_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B	opp/adj"
+                    android:id="@+id/cbSoft_Engineer_Question10_B">>
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	opp/hyp"
+                    android:id="@+id/cbEngineer_Question10_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	adj/opp"
+                    android:id="@+id/cbEngineer_Question10_D">>
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnsubmitEngineering_test"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="#228b22"
+                    android:text="Submit Test"
+                    android:textColor="#ffff">
+
+                </Button>
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/scrolTest"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

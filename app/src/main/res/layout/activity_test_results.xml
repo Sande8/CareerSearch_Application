@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestResults">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toplayout"
+        android:background="#228b22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Your Results"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="550sp"
+        android:id="@+id/scrolTest"
+        android:layout_below="@id/toplayout"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/career_message"
+            android:isScrollContainer="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/middlelayout"
+                android:layout_below="@id/toplayout"
+                android:background="@drawable/display_careers"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/display_careers"
+                    android:text="Take a look and see your results"
+                    android:textSize="24dp"
+                    android:textColor="@color/colorPrimary">
+
+                </TextView>
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Below are the marks you got from the test"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                android:textColor="#228b22"
+                android:background="@drawable/display_careers"
+                android:id="@+id/txtMessage">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/display_careers"
+                android:text="Here are the results"
+                android:textSize="14pt"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/txtTestResults">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:background="@drawable/display_careers"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="You passed the test"
+                android:textSize="11pt"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/txtTestPassed">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="3pt"
+                android:paddingLeft="5pt"
+                android:paddingTop="10pt"
+                android:text="You can click the link below to view the best universities for this category"
+                android:background="@drawable/display_careers"
+                android:id="@+id/txtNote">
+
+            </TextView>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/txtDecider"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/display_careers"
+                    android:text="View universities"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="11pt">
+
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+ >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/scrolTest"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

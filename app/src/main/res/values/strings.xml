@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Career Application</string>
+    <string-array name="Careers">
+        <item>Select Category</item>
+        <item>Education Careers</item>
+        <item>Health Science Careers</item>
+        <item>Technology Careers</item>
+        <item>Accounting Careers</item>
+        <item>Engineering Careers</item>
+    </string-array>
+</resources>

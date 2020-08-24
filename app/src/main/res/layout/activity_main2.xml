@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toplayout"
+        android:background="#228b22">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/middlelayout"
+        android:background="@drawable/display_careers"
+        android:layout_below="@id/toplayout"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Create Account"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="390sp"
+        android:id="@+id/lastlayout"
+        android:background="@drawable/display_careers"
+        android:layout_below="@id/middlelayout"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/EditEmail"
+            android:hint="Email"
+            android:inputType="textEmailAddress">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/EditR_Username"
+            android:layout_below="@+id/EditEmail"
+            android:hint="Username">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/EditR_Password"
+            android:layout_below="@+id/EditR_Username"
+            android:inputType="textPassword"
+            android:hint="Password">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/EditConfirm_Password"
+            android:layout_below="@+id/EditR_Password"
+            android:inputType="textPassword"
+            android:hint="Confirm Password">
+
+        </EditText>
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnRegister"
+            android:layout_below="@+id/EditConfirm_Password"
+            android:background="#228b22"
+            android:text="Submit"
+            android:textColor="#ffff">
+
+        </Button>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btnRegister"
+            android:id="@+id/txtTest">
+
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/lastlayout"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+</RelativeLayout>

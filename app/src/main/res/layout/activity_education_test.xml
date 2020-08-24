@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducationTest">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/topAlayout"
+        android:background="#228b22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Education Test"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="530sp"
+        android:id="@+id/scrolTest"
+        android:layout_below="@id/topAlayout"
+        android:fillViewport="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/career_message"
+            android:isScrollContainer="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Choose one Option per question"
+                android:background="@drawable/display_careers"
+                android:textSize="20dp"
+                android:textColor="#228b22">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="1.	Factorise the following; (x^2-9)(x^2+9) "
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question1"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	x^4-81"
+                    android:id="@+id/cbEducation_Question1_A"
+                    >
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text=" B. 	x^2-18x+81"
+                    android:id="@+id/cbEducation_Question1_B">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C. 	(x-9)^2"
+                    android:id="@+id/cbEducation_Question1_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D. 	2x-81"
+                    android:id="@+id/cbEducation_Question1_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="2. Simplify 2xy^3+x-2y, If x = 2 and y = -2 "
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question2"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	-22"
+                    android:id="@+id/cbEducation_Question2_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	-26"
+                    android:id="@+id/cbEducation_Question2_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	32"
+                    android:id="@+id/cbEducation_Question2_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	21"
+                    android:id="@+id/cbEducation_Question2_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="3. Reverse the given statement"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="“Hungry and frustrated, the child tears were inevitable.”"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+               >
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question3"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Hungry and frustrated, the child wept inevitably"
+                    android:id="@+id/cbEducation_Question3_A">
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	The inevitable tears were from the child who was hungry and frustrated"
+                    android:id="@+id/cbEducation_Question3_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Hungry and frustrated, the invertible were shed off by the child"
+                    android:id="@+id/cbEducation_Question3_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	The child tears were invertible, hungry and frustrate"
+                    android:id="@+id/cbEducation_Question3_D">
+
+                </RadioButton>
+
+
+            </RadioGroup>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="4.	Which statement suggests that Glaizelle will eat nothing but pasta?"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question4"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Glaizelle will only eat pasta"
+                    android:id="@+id/cbEducation_Question4_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Only Glaizelle will eat pasta"
+                    android:id="@+id/cbEducation_Question4_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Glaizelle will eat only pasta"
+                    android:id="@+id/cbEducation_Question4_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Glaizelle only will eat pasta"
+                    android:id="@+id/cbEducation_Question4_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="5.	Harry has a bad breath because he ……………….. his teeth very often"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question5"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Don’t brush"
+                    android:id="@+id/cbEducation_Question5_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Doesn’t brush"
+                    android:id="@+id/cbEducation_Question5_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Did not brust"
+                    android:id="@+id/cbEducation_Question5_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Never brush"
+                    android:id="@+id/cbEducation_Question5_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="6. Physics is defined as"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question6"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	The study of plants, animals and nature"
+                    android:id="@+id/cbEducation_Question6_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Is the science of the human body"
+                    android:id="@+id/cbEducation_Question6_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Development out of efforts of man trying to explain our physical environment"
+                    android:id="@+id/cbEducation_Question6_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Development out of efforts of man trying to understand space and astronomy"
+                    android:id="@+id/cbEducation_Question6_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="7. Spot out the physicist that is morev famous"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question7"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Thomas Edison"
+                    android:id="@+id/cbEducation_Question7_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Issac Newton"
+                    android:id="@+id/cbEducation_Question7_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Ben Franklin"
+                    android:id="@+id/cbEducation_Question7_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	 Dr spock"
+                    android:id="@+id/cbEducation_Question7_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="8. What is the definition of average velocity"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question8"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Average velocity  = displacement ………. Elapsed time"
+                    android:id="@+id/cbEducation_Question8_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Elapsed time = Distance………Speed"
+                    android:id="@+id/cbEducation_Question8_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Velocity = elapsed time ……… acceleration"
+                    android:id="@+id/cbEducation_Question8_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	None of the above"
+                    android:id="@+id/cbEducation_Question8_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="9. What are two main BRACHES of Physical Sciences"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question9"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Natural and physical"
+                    android:id="@+id/cbEducation_Question9_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Earth science and Biology"
+                    android:id="@+id/cbEducation_Question9_B">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Social and Natural"
+                    android:id="@+id/cbEducation_Question9_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Chemistry and Physics"
+                    android:id="@+id/cbEducation_Question9_D">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="10. Third step in scientific method then you form an educational guess to explain what you observed. "
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/display_careers"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgSoftware_Question10"
+                android:background="@drawable/display_careers">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="A.	Hypothesis"
+                    android:id="@+id/cbEducation_Question10_A">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="B.	Ask a question"
+                    android:id="@+id/cbEducation_Question10_B">>
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="C.	Observation"
+                    android:id="@+id/cbEducation_Question10_C">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/display_careers"
+                    android:text="D.	Prediction"
+                    android:id="@+id/cbEducation_Question10_D">>
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnsubmitEducation_test"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="#228b22"
+                    android:text="Submit Test"
+                    android:textColor="#ffff">
+
+                </Button>
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/finlayout"
+        android:layout_below="@+id/scrolTest"
+        android:background="#228b22">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/belowlayout"
+        android:layout_below="@+id/finlayout"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
